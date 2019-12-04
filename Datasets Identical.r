@@ -12,17 +12,17 @@ p <- murders$population
 m <- movielens$movieid
 
 #to determine the calss of object 'p' we use the following
-clas(p)
+class(p)
 class(m)
 
-#so if we change then population with murders the following should work
+#so if we change the population with murders the following should work
 x <- murders$murders
 class(x)
 
-#we extract the population like this:
+#this is how we would extract the population:
 p <- murders$population
 
-#this is how we do the same with double square brackets:
+#this is how we would do the same with double brackets:
 o <- murders[["population"]]
 
 #this can be confirmed by doing the following:
