@@ -1,34 +1,23 @@
----
-title: 'Vector Arithmetics'
-description: 'We will learn about the more powerful vector arithmetic functions in R, that help us solve higher-level problems.'
----
+# Title: 'Vector Arithmetics'
+# Desc: 'We will learn about vector arithmetic functions in R. This will assist us with solving higher-level algorithm'
 
-## Vectorized operations
+# Type: Exercise
+# Language: R
+# skills: 1
 
-```yaml
-type: NormalExercise
-key: 496010199b
-lang: r
-xp: 100
-skills: 1
-```
+# During previous testing we created this data frame:
 
-Previously we created this data frame:
+temp <- c(35, 88, 42, 84, 81, 30) # dataset with stored temperatures
+city <- c("Beijing", "Lagos", "Paris", "Rio de Janeiro", "San Juan", "Toronto") # dataset with stored cities
+city_temps <- data.frame(name = city, temperature = temp) # dataset with cities with temperature values 
 
-```{r}
-temp <- c(35, 88, 42, 84, 81, 30)
-city <- c("Beijing", "Lagos", "Paris", "Rio de Janeiro", "San Juan", "Toronto")
-city_temps <- data.frame(name = city, temperature = temp)
-```
+# say we are interested in specifying Celsius instead of Fahrenheit.
+# the math formula that converts from Fahrenheit to Celsius is  $C = 5/9 \times (F-32)$
 
-`@instructions`
-We are interested in specifying Celsius instead of Fahrenheit. Remember that to convert from Fahrenheit to Celsius we use $C = 5/9 \times (F-32)$.
+# Use vector arithmetic to convert temp to Celsius
+# We will create a data frame called city_temps that will have the city names and temperatures stored in Celsius
 
-- Use vector arithmetic to convert `temp` to Celsius
-- Create a data frame called `city_temps` with the city names and temperatures in Celsius.
-
-`@hint`
-To subtract a constant `a` to each entry of a vector `x` and then multiply each by `b` to each use `(x-a)*b`
+# To subtract a constant `a` to each entry of a vector `x` and then multiply each by `b` to each use `(x-a)*b`
 
 `@pre_exercise_code`
 ```{r}
