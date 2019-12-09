@@ -3,3 +3,5 @@
 no_south <- filter(murders, region != "south")
 
 # Use nrow() to calculate the number of rows
+
+nrow(no_south)
