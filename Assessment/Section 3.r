@@ -37,3 +37,6 @@ sum(v)
 
 z <- heights$sex =="Female"
 mean(z)
+
+y <- which.min(heights$height)
+heights$height[y]
