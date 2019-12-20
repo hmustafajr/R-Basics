@@ -36,3 +36,5 @@ w <- heights$sex[1032]
 w <- heights$sex[50]
 
 max(heights$height)
+
+X<- 50:82
