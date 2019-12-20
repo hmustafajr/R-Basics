@@ -34,3 +34,5 @@ w
 w <- heights$sex[1032]
 #or
 w <- heights$sex[50]
+
+max(heights$height)
