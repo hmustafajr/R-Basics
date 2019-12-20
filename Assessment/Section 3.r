@@ -27,3 +27,6 @@ z <- heights$sex =="Female"
 mean(z)
 y <- which.min(heights$height)
 heights$height[y]
+
+w <- match(c(50), heights$height)
+w
