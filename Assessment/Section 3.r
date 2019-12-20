@@ -38,3 +38,25 @@ w <- heights$sex[50]
 max(heights$height)
 
 X<- 50:82
+
+
+library(dslabs)
+install.packages('dplyr',repos ='http://cran.us.r-project.org')
+data(heights)
+
+
+male <- heights$height[heights$sex=="Male"]
+female <- heights$height[heights$sex=="Female"]
+
+ht_cm <- heights$height * 2.54
+
+ht_cm[18]
+mean(ht_cm)
+
+z <- heights$sex =="Female"
+mean(z) * 2.54
+
+females <- (heights$sex =='Female')
+mean(females)
+
+mean(filter(females), na.rm = true)
