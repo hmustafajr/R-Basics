@@ -30,3 +30,7 @@ heights$height[y]
 
 w <- match(c(50), heights$height)
 w
+
+w <- heights$sex[1032]
+#or
+w <- heights$sex[50]
