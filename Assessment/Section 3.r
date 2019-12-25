@@ -2,12 +2,12 @@ library(dslabs)
 data(heights)
 options(digits = 3) #report 3 significant digits for all answers
 
+#Filters heights that are shorter than 68.3
 x <- heights$height
 y <- mean(x)
-x <- c(heights$height>68.3)
+x <- c(heights$height>68.3) 
 
-#
-
+#Filters heights for women that are shorter than 68.3
 x <- heights$height
 y <- mean(x)
 x <- c(heights$height>68.3)
@@ -16,7 +16,6 @@ v <- heights$sex =="Female"&heights$height >68.3
 sum(v)
 
 #
-
 x <- heights$height
 y <- mean(x)
 x <- c(heights$height>68.3)
@@ -25,6 +24,7 @@ v <- heights$sex =="Female"&heights$height >68.3
 sum(v)
 z <- heights$sex =="Female"
 mean(z)
+
 y <- which.min(heights$height)
 heights$height[y]
 
@@ -44,10 +44,10 @@ library(dslabs)
 install.packages('dplyr',repos ='http://cran.us.r-project.org')
 data(heights)
 
-
 male <- heights$height[heights$sex=="Male"]
 female <- heights$height[heights$sex=="Female"]
 
+#Converts the height data to centimeters
 ht_cm <- heights$height * 2.54
 
 ht_cm[18]
