@@ -1,7 +1,7 @@
-## Vectorized operation continued...
+# vectorized operation continued...
 
-# Now we will compute the per 100k murder rate for each state and then store it in a object murder_rate
-# Then we will compute the average state murder rates for the US using the mean function
+# now we'll compute the per 100k murder rate for each state and then store it in a object murder_rate
+# then we'll compute the average state murder rates for the US using the mean function
 
 # This is how you would display this average
 
