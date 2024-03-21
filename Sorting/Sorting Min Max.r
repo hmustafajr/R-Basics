@@ -23,5 +23,5 @@ i_max <- which.max(murders$total) # this will return the maximum value
 # i_max to return [1] 5
 
 # run min(murders$total) to return the following
-i_min <- which.min(murders$total) # this will return the minimum value
+i_min <- which.min(murders$total) # this returns the minimum value
 #i_min to return [1] 2
