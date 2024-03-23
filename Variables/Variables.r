@@ -1,4 +1,4 @@
-# here is an ecample of how you would compute the sum for the first 20 integers
+# here's an example of how you would compute the sum for the first 20 integers
 20*(20+1)/2
 
 # however, we can define a variable to use the formula for other values of variable n
