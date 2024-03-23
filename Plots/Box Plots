@@ -1,2 +1,2 @@
-# Creates a boxplot of state populations by region for the murders dataset
+# creates a boxplot of state populations by region for the murders dataset
 boxplot(population~region, data = murders)
