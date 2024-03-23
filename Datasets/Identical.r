@@ -11,11 +11,11 @@ names(murders)
 p <- murders$population
 m <- movielens$movieid
 
-# to determine the calss of object 'p' we use the following
+# to determine the class of object 'p' use the following
 class(p)
 class(m)
 
-# so if we change the population with murders the following should work
+# so to change the population with murders the following should work
 x <- murders$murders
 class(x)
 
