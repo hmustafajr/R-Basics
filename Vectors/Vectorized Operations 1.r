@@ -1,10 +1,7 @@
-# Title: 'Vector Arithmetics'
-# Desc: 'We will learn about vector arithmetic functions in R. This will assist us with solving higher-level algorithm'
-# Type: Exercise
-# Language: R
-# skills: 1
+# Title: Vector Arithmetic
+# Desc: We'll learn about vector arithmetic functions to assist us with higher-level algorithm
 
-# During previous testing we created this data frame:
+# From previous testing we created this data frame:
 
 temp <- c(35, 88, 42, 84, 81, 30) # dataset with stored temperatures
 city <- c("Beijing", "Lagos", "Paris", "Rio de Janeiro", "San Juan", "Toronto") # dataset with stored cities
