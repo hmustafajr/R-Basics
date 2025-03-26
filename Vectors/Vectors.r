@@ -1,4 +1,4 @@
-# we can create vectors of class numeric or character with the concatenate function - c represemts concantenate
+# we can create vectors with the class of numeric or character with the concatenate function - c represemts concantenate
 codes <- c(380,124,818)
 country <- c("Italy","Canada","Egypy")
 
