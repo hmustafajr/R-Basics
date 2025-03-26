@@ -1,6 +1,6 @@
 # we can create vectors with the class of numeric or character with the concatenate function - c represemts concantenate
 codes <- c(380,124,818)
-country <- c("Italy","Canada","Egypy")
+country <- c("Italy","Canada","Egypt")
 
 # we can also name the element of a numeric vector - note that the two lines below have the same result
  codes <- c(Italy= 380, Canada= 124, Egypt= 818)
